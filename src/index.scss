@@ -1,0 +1,34 @@
+/* ||||||||||||| */
+/* GLOBAL STYLES */
+/* ||||||||||||| */
+
+html {
+    accent-color: #3584E4;
+    box-sizing: border-box;
+    font-family: 'Inter';
+    font-size: 10px;
+}
+    
+*, *:before, *:after {
+  /* www.css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+  box-sizing: inherit;
+}
+
+body {
+  align-items: center;
+  background: #CDCDCD;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  margin: 0;
+}
+
+img {
+  pointer-events: none;
+  user-select: none;
+}
+
+::selection {
+  background-color: #3584E4;
+  color: white;
+}
