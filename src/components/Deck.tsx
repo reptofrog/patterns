@@ -111,6 +111,7 @@ class Deck extends React.Component {
                         />
                         <ButtonColor
                             onClick={this.setColor}
+                            color='#E9E6E6'
                         />
                         <ButtonColor
                             onClick={this.setColor}
